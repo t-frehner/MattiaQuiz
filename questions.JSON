@@ -1,0 +1,574 @@
+[
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of these did mathematician Leonhard Euler NOT develop?",
+      "correct_answer": "An improvement to the Fast Fourier Transform",
+      "incorrect_answers": [
+        "A method of solving first-order differential equations",
+        "An identity linking the numbers e, pi and i",
+        "A formula linking vertices, edges and faces on a graph"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "What mythology did the god &quot;Apollo&quot; come from?",
+      "correct_answer": "Greek and Roman",
+      "incorrect_answers": [
+        "Roman and Spanish",
+        "Greek and Chinese",
+        "Greek, Roman and Norse"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of the alcoholic beverage made from potatoes or grains that originates from Poland and Russia?",
+      "correct_answer": "Vodka",
+      "incorrect_answers": [
+        "Absinthe",
+        "Rum",
+        "Sake"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "How many sides does a trapezium have?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In golf, what name is given to a hole score of two under par?",
+      "correct_answer": "Eagle",
+      "incorrect_answers": [
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which of these words means &quot;idle spectator&quot;?",
+      "correct_answer": "Gongoozler",
+      "incorrect_answers": [
+        "Gossypiboma",
+        "Jentacular",
+        "Meupareunia"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Kirito and Asuna are main characters from which anime?",
+      "correct_answer": "Sword Art Online",
+      "incorrect_answers": [
+        "One Piece",
+        "Death Note",
+        "Fairy Tail"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the planet that the Doctor from television series &quot;Doctor Who&quot; comes from?",
+      "correct_answer": "Gallifrey",
+      "incorrect_answers": [
+        "Sontar",
+        "Skaro",
+        "Mondas"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+      "correct_answer": "Afghanistan",
+      "incorrect_answers": [
+        "China",
+        "Iraq",
+        "Russia"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following characters is NOT playable in &quot;Resident Evil 6&quot;?",
+      "correct_answer": "Jill Valentine",
+      "incorrect_answers": [
+        "Chris Redfield",
+        "Sherry Birkin",
+        "Helena Harper"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the world&#039;s first video game?",
+      "correct_answer": "Draughts",
+      "incorrect_answers": [
+        "Spacewar!",
+        "Pong",
+        "Space Travel"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was the game &quot;Roblox&quot; released?",
+      "correct_answer": "2006",
+      "incorrect_answers": [
+        "2003",
+        "2002",
+        "2007"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the name of the capital of Turkey?",
+      "correct_answer": "Ankara",
+      "incorrect_answers": [
+        "Istanbul",
+        "Izmir",
+        "Bursa"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+      "correct_answer": "Tilly",
+      "incorrect_answers": [
+        "Tom",
+        "Tiny",
+        "None of the Above"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which of the following United States Presidents served the shortest term in office?",
+      "correct_answer": "William Henry Harrison",
+      "incorrect_answers": [
+        "Zachary Taylor",
+        "James A. Garfield",
+        "Warren G. Harding"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed &quot;E.T. the Extra-Terrestrial&quot; (1982)?",
+      "correct_answer": "Steven Spielberg",
+      "incorrect_answers": [
+        "Stanley Kubrick",
+        "James Cameron",
+        "Tim Burton"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+      "correct_answer": "Josip Broz Tito",
+      "incorrect_answers": [
+        "Karadjordje Petrovic",
+        "Milos Obilic",
+        "Aleskandar Petrovic"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
+      "correct_answer": "Korean",
+      "incorrect_answers": [
+        "Kenyan",
+        "Kazakhstan",
+        "Kuwaiti"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the talking cat in Persona 5?",
+      "correct_answer": "Morgana",
+      "incorrect_answers": [
+        "Teddie",
+        "Marie",
+        "Ryuji"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which one of the following musical instruments is NOT a part of the Woodwind section?",
+      "correct_answer": "Trumpet",
+      "incorrect_answers": [
+        "Clarinet",
+        "Oboe",
+        "Alto Saxophone"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "On which planet does the game Freedom Planet (2014) take place?",
+      "correct_answer": "Avalice",
+      "incorrect_answers": [
+        "Freedom",
+        "Galaxytrail",
+        "Shang Mu"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs was NOT released in the 90s?",
+      "correct_answer": "&quot;I Want It All&quot; by Queen",
+      "incorrect_answers": [
+        "&quot;Vogue&quot; by Madonna",
+        "&quot;Can&#039;t Stop This Thing We Started&quot; by Bryan Adams",
+        "&quot;King of Wishful Thinking&quot; by Go West"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What two characters from the game Undertale are never in a relationship or not related?",
+      "correct_answer": "Frisk &amp; Chara",
+      "incorrect_answers": [
+        "Sans &amp; Papyrus",
+        "Toriel &amp; Asgore",
+        "Alphys &amp; Undyne"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "What type is &quot;Magic Drain&quot; in Yugioh! Trading Card Game?",
+      "correct_answer": "Counter Trap",
+      "incorrect_answers": [
+        "Normal Trap",
+        "Quick-Play Spell",
+        "Field Spell"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Fallout 4&quot; which faction is not present in the game?",
+      "correct_answer": "The Enclave",
+      "incorrect_answers": [
+        "The Minutemen",
+        "The Brotherhood of Steel",
+        "The Institute"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was the first &quot;Half-Life&quot; released?",
+      "correct_answer": "1998",
+      "incorrect_answers": [
+        "2004",
+        "1999",
+        "1997"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "In what Harry Potter book was a Horcrux first encountered?",
+      "correct_answer": "The Chamber of Secrets",
+      "incorrect_answers": [
+        "The Half-Blood Prince",
+        "The Goblet of Fire",
+        "The Deathly Hallows"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What ingredients are required to make a cake in Minecraft?",
+      "correct_answer": "Milk, Sugar, Egg, and Wheat",
+      "incorrect_answers": [
+        "Milk, Bread, Egg, and Wheat",
+        "Milk, Sugar Cane, Egg, and Wheat",
+        "Milk, Sugar, and Wheat"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+      "correct_answer": "Silver",
+      "incorrect_answers": [
+        "Gold",
+        "Juno",
+        "Sword"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
+      "correct_answer": "Midnight, January 1, 1970",
+      "incorrect_answers": [
+        "Midnight, July 4, 1976",
+        "Midnight on the creator of Unix&#039;s birthday",
+        "Midnight, July 4, 1980"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the name of the only remaining Grand Duchy in the world ?",
+      "correct_answer": "Luxembourg",
+      "incorrect_answers": [
+        "Montenegro",
+        "Liechtenstein",
+        "Andorra"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "Which company developed the Hololens?",
+      "correct_answer": "Microsoft",
+      "incorrect_answers": [
+        "HTC",
+        "Oculus",
+        "Tobii"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Love Live: School Idol Project&quot; what pseudonym does Kotori Minami use in her job as a maid?",
+      "correct_answer": "Minalinsky",
+      "incorrect_answers": [
+        "Stanoytchev",
+        "Kuznetsov",
+        "Aqours"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What type of animal was Harambe, who was shot after a child fell into it&#039;s enclosure at the Cincinnati Zoo?",
+      "correct_answer": "Gorilla",
+      "incorrect_answers": [
+        "Tiger",
+        "Panda",
+        "Crocodile"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
+      "correct_answer": "Romantic",
+      "incorrect_answers": [
+        "Classic",
+        "Baroque",
+        "Renaissance"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which Sonic the Hedgehog game introudced Knuckles the Echidna?",
+      "correct_answer": "Sonic the Hedgehog 3",
+      "incorrect_answers": [
+        "Sonic the Hedgehog 2",
+        "Sonic &amp; Knuckles",
+        "Sonic Adventure"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "How many baby/milk teeth does a human child have in total?",
+      "correct_answer": "20",
+      "incorrect_answers": [
+        "10",
+        "15",
+        "25"
+      ]
+    },
+    {
+      "team": "B",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of the poker hand containing three of a kind and a pair?",
+      "correct_answer": "Full House",
+      "incorrect_answers": [
+        "Flush",
+        "Straight",
+        "High card"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game series &quot;Disgaea&quot;, what word does the character Prinny have to include in all sentences they speak?",
+      "correct_answer": "&quot;Dood&quot;",
+      "incorrect_answers": [
+        "&quot;Master&quot;",
+        "&quot;Plip&quot;",
+        "&quot;Boom&quot;"
+      ]
+    },
+    {
+      "team": "A",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What city did the Lakers represent before relocating to Los Angeles?",
+      "correct_answer": "Minneapolis",
+      "incorrect_answers": [
+        "Philadelphia",
+        "Chicago",
+        "San Francisco"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Greenland is a part of which kingdom?",
+      "correct_answer": "Denmark",
+      "incorrect_answers": [
+        "Sweden",
+        "Norway",
+        "United Kingdom"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What CoD &quot;Deathstreak&quot; is only featured in Call of Duty : Modern Warfare 2?",
+      "correct_answer": "Copycat",
+      "incorrect_answers": [
+        " Martrydom",
+        "Final Stand",
+        "Revenge"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Monster Hunter Generations, which of the following monsters are a part of the &quot;Fated Four&quot;?",
+      "correct_answer": "Astalos",
+      "incorrect_answers": [
+        "Gore Magala",
+        "Malfestio",
+        "Arzuros"
+      ]
+    },
+    {
+      "team": "C",
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Mary Shelley is the author of what classic horror story?",
+      "correct_answer": "Frankenstein",
+      "incorrect_answers": [
+        "Dracula",
+        "Strange Case of Dr Jekyll and Mr Hyde",
+        "The Legend of Sleepy Hollow"
+      ]
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "mattiaquiz-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "he": "^1.2.0",
+    "pg": "^8.23.0",
+    "qrcode": "^1.5.4"
+  }
+}
