@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './mobile.css';
 
 const TEAMS = ['A', 'B', 'C'];
 
@@ -28,41 +29,45 @@ export default function Join({ onJoined }) {
   }
 
   return (
-    <form onSubmit={submit}>
-      <h1>MattiaQuiz</h1>
-      <label>
-        Dein Name
-        <br />
-        <input
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-          maxLength={40}
-          autoCapitalize="words"
-          autoComplete="off"
-          enterKeyHint="go"
-        />
-      </label>
-      <fieldset>
-        <legend>Dein Team</legend>
-        {TEAMS.map((t) => (
-          <label key={t}>
-            <input
-              type="radio"
-              name="team"
-              value={t}
-              checked={team === t}
-              onChange={() => setTeam(t)}
-              required
-            />
-            Team {t}
-          </label>
-        ))}
-      </fieldset>
-      <button type="submit" disabled={busy}>
-        Los geht's
-      </button>
-      {error && <p>Fehler: {error}</p>}
-    </form>
+    <div className="mobile mobile-center">
+      <h1 className="mobile-title">MattiaQuiz</h1>
+      <form className="mobile-form" onSubmit={submit}>
+        <label>
+          <span className="mobile-label">Dein Name</span>
+          <input
+            className="mobile-input"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+            maxLength={40}
+            autoCapitalize="words"
+            autoComplete="off"
+            enterKeyHint="go"
+          />
+        </label>
+        <fieldset className="mobile-fieldset">
+          <legend className="mobile-label">Dein Team</legend>
+          <div className="mobile-teams">
+            {TEAMS.map((t) => (
+              <label className="mobile-team" key={t}>
+                <input
+                  type="radio"
+                  name="team"
+                  value={t}
+                  checked={team === t}
+                  onChange={() => setTeam(t)}
+                  required
+                />
+                <span className="mobile-team-tile">{t}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <button className="mobile-button" type="submit" disabled={busy}>
+          {busy ? 'Einen Moment...' : "Los geht's"}
+        </button>
+        {error && <p className="mobile-error">Fehler: {error}</p>}
+      </form>
+    </div>
   );
 }

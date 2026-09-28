@@ -12,11 +12,11 @@ export default function Beamer() {
       .catch((err) => setError(String(err)));
   }, []);
 
-  if (error) return <p>Fehler: {error}</p>;
-  if (!data) return <p>Lade...</p>;
+  if (error) return <p className="beamer">Fehler: {error}</p>;
+  if (!data) return <p className="beamer">Lade...</p>;
 
   return (
-    <div>
+    <div className="beamer">
       <h1>Scanne den Code zum Mitspielen</h1>
       <img src={data.qr} alt="QR-Code" width="512" height="512" />
       <p style={{ fontSize: '2em' }}>{data.url}</p>

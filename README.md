@@ -11,7 +11,12 @@ Four pages run on port 5173:
   player. Every answer becomes a row in `answers`.
 
 ## Setup
-have a look at the make file or type make help in the terminal (this folder)
+1. add a SSH key or Personal Access Token
+2. clone gitRepo using: 
+git clone https://github.com/t-frehner/MattiaQuiz.git
+or 
+git clone git@github.com:t-frehner/MattiaQuiz.git
+3. have a look at the make file or type make help in the terminal (this folder)
 
 
 ## Run
@@ -35,7 +40,4 @@ refuses to start otherwise and names the offending index. The entry's position i
 (or `make resetDB`). The server reads the file once at startup.
 
 ## Todos
-
-
-- improve mobile UI
 - pick good questions

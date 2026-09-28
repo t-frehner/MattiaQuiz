@@ -1,0 +1,276 @@
+/* Phone screens (Join + Quiz). Every selector is scoped under .mobile because Vite bundles all
+   stylesheets globally – unscoped rules would leak into the beamer and scoreboard pages. */
+
+/* The phone screens paint edge to edge, so the default body margin has to go. Vite merges every
+   stylesheet into one bundle, so this reaches the beamer page as well – .beamer below gives that
+   page back the breathing room it used to get from the margin. */
+body {
+  margin: 0;
+}
+
+.beamer {
+  padding: 1.5rem;
+}
+
+.mobile {
+  --bg-top: #0b1f4d;
+  --bg-bottom: #1d3d8f;
+  --accent: #2f6fe4;
+  --surface: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.22);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 1.75rem 1.25rem 2.5rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  color: white;
+  background: linear-gradient(160deg, var(--bg-top), var(--bg-bottom));
+  background-attachment: fixed;
+  /* Kill the grey flash Android draws over every tap; the elements provide their own feedback. */
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobile *,
+.mobile *::before,
+.mobile *::after {
+  box-sizing: border-box;
+}
+
+/* Join is short enough to sit centred; Quiz starts at the top. */
+.mobile-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile-title {
+  margin: 0 0 1.75rem;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+/* --- form ---------------------------------------------------------------- */
+
+.mobile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.mobile-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+.mobile-input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background-color: var(--surface);
+  color: white;
+  /* 1rem = 16px keeps iOS from zooming in when the field gets focus. */
+  font-size: 1.0625rem;
+  font-family: inherit;
+}
+
+.mobile-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.mobile-fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.mobile-fieldset legend {
+  padding: 0;
+}
+
+.mobile-teams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.mobile-team input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mobile-team-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background-color: var(--surface);
+  font-size: 1.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.mobile-team input:checked + .mobile-team-tile {
+  border-color: white;
+  background-color: var(--accent);
+}
+
+.mobile-team input:focus-visible + .mobile-team-tile {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* --- buttons ------------------------------------------------------------- */
+
+.mobile-button {
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.9rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: var(--accent);
+  color: white;
+  font-size: 1.125rem;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  /* Skips the double-tap-to-zoom wait, so taps register immediately. */
+  touch-action: manipulation;
+}
+
+.mobile-button:active:not(:disabled) {
+  transform: scale(0.985);
+}
+
+.mobile-button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+/* --- quiz ---------------------------------------------------------------- */
+
+.mobile-quiz-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.mobile-badge {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background-color: var(--surface);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.mobile-progress {
+  height: 0.4rem;
+  margin: 0.9rem 0 0.5rem;
+  border-radius: 999px;
+  background-color: var(--surface);
+  overflow: hidden;
+}
+
+.mobile-progress-bar {
+  height: 100%;
+  border-radius: 999px;
+  background-color: var(--accent);
+  transition: width 0.3s;
+}
+
+.mobile-progress-text {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.mobile-category {
+  margin: 2rem 0 0.6rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+}
+
+.mobile-question {
+  margin: 0 0 1.75rem;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.mobile-answers {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mobile-answer {
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background-color: var(--surface);
+  color: white;
+  font-size: 1.0625rem;
+  font-family: inherit;
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.mobile-answer:active:not(:disabled) {
+  background-color: var(--accent);
+}
+
+/* The tapped answer stays highlighted while the request is in flight; the others fade back. */
+.mobile-answer-chosen {
+  border-color: white;
+  background-color: var(--accent);
+}
+
+.mobile-answer:disabled:not(.mobile-answer-chosen) {
+  opacity: 0.45;
+}
+
+/* --- states -------------------------------------------------------------- */
+
+.mobile-note {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.mobile-retry {
+  margin-top: 1rem;
+}
+
+.mobile-error {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(255, 138, 128, 0.5);
+  border-radius: 0.75rem;
+  background-color: rgba(255, 82, 82, 0.18);
+  font-size: 0.95rem;
+}
+
+.mobile-done {
+  margin: 0 0 0.75rem;
+  font-size: 2rem;
+  text-align: center;
+}
