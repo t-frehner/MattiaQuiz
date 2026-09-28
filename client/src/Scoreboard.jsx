@@ -43,6 +43,7 @@ function ScoreTable({ rows }) {
 export default function Scoreboard() {
   const [data, setData] = useState({ players: [], teams: [] });
   const [error, setError] = useState(null);
+  const [showLogo, setShowLogo] = useState(false);
 
   useEffect(() => {
     const load = () =>
@@ -76,6 +77,14 @@ export default function Scoreboard() {
         </ul>
       </header>
       <main className="scoreboard-scores">
+        {/* Empty and invisible until clicked, then the logo appears. Absolutely positioned, so it
+            stays out of the two-column grid flow and never pushes the tables around. */}
+        <button
+          type="button"
+          className={showLogo ? 'logo-button logo-button-logo' : 'logo-button'}
+          onClick={() => setShowLogo((v) => !v)}
+          aria-label={showLogo ? 'Logo ausblenden' : 'Logo einblenden'}
+        />
         {columns.map((column, i) => (
           <ScoreTable key={i} rows={column} />
         ))}

@@ -56,24 +56,35 @@
   align-items: start; /* don't stretch the shorter column's rows */
 }
 
-/* Logo watermark. The file is black on white, so invert it and screen-blend it onto the blue:
-   the (now black) background disappears and the logo shows up white. */
-.scoreboard-scores::before {
-  content: '';
+/* Clickable middle area. Empty by default – transparent, but still a box, so it takes the click.
+   Absolute, so it stays out of the grid flow and never pushes the tables around. */
+.logo-button {
   position: absolute;
   inset: 4vh 10vw;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Added on click. The file is black on white, so invert it and screen-blend it onto the blue:
+   the (now black) background disappears and the logo shows up white. */
+.logo-button-logo {
   background: url('./logo.jpg') center / contain no-repeat;
   filter: invert(1);
   mix-blend-mode: screen;
   opacity: 0.2;
-  pointer-events: none;
+  transition: opacity 0.2s;
 }
 
-.scoreboard-scores > * {
-  position: relative; /* tables above the watermark */
+.logo-button-logo:hover,
+.logo-button-logo:focus-visible {
+  opacity: 0.4;
 }
 
 .score-table {
+  position: relative;
+  z-index: 1; /* tables above the watermark */
   width: 100%;
   border-collapse: collapse;
 }
